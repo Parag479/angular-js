@@ -1,1 +1,3 @@
-<p>calendar works!</p>
+<!-- src/app/calendar/calendar.component.html -->
+<app-calendar-header (monthChanged)="onMonthChanged($event)"></app-calendar-header>
+<app-calendar-body [currentDate]="currentDate"></app-calendar-body>

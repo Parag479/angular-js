@@ -1,12 +1,6 @@
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-calendar',
-  standalone: true,
-  imports: [],
-  templateUrl: './calendar.component.html',
-  styleUrl: './calendar.component.css'
-})
-export class CalendarComponent {
-
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
